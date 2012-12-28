@@ -2051,7 +2051,7 @@ table tbody tr:hover th {
 /**/
   body{
     background-color: #fafafa;
-    font-family: 'Gill Sans W01 Book',Ubuntu,Consolas, monaco, monospace;
+    font-family: 'Gill Sans W01 Book',Ubuntu,Consolas, monaco, monospace !important;
     font-size: 100%;
     font-weight: normal;
     height: 100%;
@@ -2098,6 +2098,7 @@ header{
 }
 
 #top nav li{
+  font-family: 'Gill Sans W01 Book',Ubuntu,Consolas, monaco, monospace !important;
   float: left;
   list-style-type: none;
   color: #fff;
@@ -2109,6 +2110,7 @@ header{
 
 
 #top nav li a{
+  font-family: 'Gill Sans W01 Book',Ubuntu,Consolas, monaco, monospace !important;
   text-transform: uppercase;
   color: #fff;
   font-size: 1.5em;
