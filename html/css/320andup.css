@@ -2088,16 +2088,16 @@ header{
   height: 75px;
 }
 
-#top h1 a{
+#top a{
   display: block;
 }
-#top nav ul{
+#top ul{
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
-#top nav li{
+#top li{
   font-family: 'Gill Sans W01 Book',Ubuntu,Consolas, monaco, monospace !important;
   float: left;
   list-style-type: none;
@@ -2109,12 +2109,11 @@ header{
 }
 
 
-#top nav li a{
+#top a{
   font-family: 'Gill Sans W01 Book',Ubuntu,Consolas, monaco, monospace !important;
   text-transform: uppercase;
   color: #fff;
   font-size: 1.5em;
-  display: block;
   height: 100%;
   width: 100%;
   padding: 25px 0;
@@ -2235,7 +2234,7 @@ button{
   margin: 0.5em 0 1.5em;
 }
 
-#podcasts li h2{
+#podcasts h2{
   font-size: 100%;
 }
 
@@ -2269,7 +2268,7 @@ button{
   margin: 1em;
 }
 
-#sidebar li img{
+#sidebar img{
   float: left;
 }
 
@@ -2327,7 +2326,7 @@ footer{
   
 }
 
-#social li a{
+#social a{
   text-indent: -99999px;
   text-align: left;
 }
