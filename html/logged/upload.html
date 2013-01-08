@@ -80,12 +80,12 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 	<body class="clearfix">
 		<div id="wrapper">
 			<header role="banner" class="clearfix">
-				<div id="top">
-					<h1><a href="./../index.html">Logo</a></h1><!-- / logo -->
+				<div id="top" itemscope>
+					<h1><a itemprop="url" href="./../index.html">Logo</a></h1><!-- / logo -->
 					<nav>
 						<ul>
-							<li><a href="./../djs.html" title="DJS">DJS</a></li>
-							<li><a href="./../podcasts.html" title="Podcasts">Podcasts</a></li>					
+							<li><a itemprop="url" href="./../djs.html" title="DJS">DJS</a></li>
+							<li><a itemprop="url" href="./../podcasts.html" title="Podcasts">Podcasts</a></li>					
 						</ul>
 					</nav><!-- / menu -->
 					<div id="player"></div><!-- / player -->
@@ -98,7 +98,7 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 					<div class="span12 dropzone" id="filedrop" dropzone="copy f:image/jpeg f:image/png f:image/gif">
 						<span>give me file !</span>
 					</div>
-					<p><a href="upload-classic.html" title="Classic Uploader">Ou utiliser le formulaire classique</a></p>
+					<p><a itemprop="url" href="upload-classic.html" title="Classic Uploader">Ou utiliser le formulaire classique</a></p>
 				<section id="dj-main">
 					<table>
 						<caption><h1 class="title">Vos derniers mix</h1></caption>
@@ -139,18 +139,18 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 						</tr>	
 					</table>
 				</section>
-				<aside id="statbar">
+				<aside id="statbar" itemscope>
 					<h1 class="title">Vos statistiques</h1>
 					<ul>
 						<li>
-							<h3>Code Mixiter: <span>900 DL</span></h3>						
+							<a itemprop="url" href="#" title="Modifier votre profil">Modifier votre profil</a>
 						</li>
 						<li>
-							<h3>Drupal is the way: <span>530 DL</span></h3>						
-						</li>	
+							<a itemprop="url" href="#" title="Voir votre profil">Voir votre profil</a>
+						</li>
 						<li>
-							<h3>HTML Rocks: <span>325 DL</span></h3>						
-						</li>	
+							<a itemprop="url" href="#" title="Ajouter un lien">Ajouter un lien</a>
+						</li>												
 					</ul>
 				</aside>
 			</div><!-- / content -->
@@ -160,13 +160,13 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 					<p>2012 Copyrights</p>
 					<ul id="social">
 						<li>
-							<a href="#" id="rss">Flux RSS</a>
+							<a itemprop="url" href="#" id="rss">Flux RSS</a>
 						</li>
 						<li>
-							<a href="#" id="twitter">Compte Twitter</a>
+							<a itemprop="url" href="#" id="twitter">Compte Twitter</a>
 						</li>
 						<li>
-							<a href="#" id="fb">Compte Facebook</a>
+							<a itemprop="url" href="#" id="fb">Compte Facebook</a>
 						</li>
 					</ul>						
 				</div>

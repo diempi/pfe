@@ -81,11 +81,11 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 		<div id="wrapper">
 			<header role="banner" class="clearfix">
 				<div id="top">
-					<h1><a href="./../index.html">Logo</a></h1><!-- / logo -->
+					<h1 itemscope><a itemprop="url" href="./../index.html">Logo</a></h1><!-- / logo -->
 					<nav>
-						<ul>
-							<li><a href="djs.html" title="DJS">DJS</a></li>
-							<li><a href="podcasts.html" title="Podcasts">Podcasts</a></li>					
+						<ul itemscope>
+							<li><a itemprop="url" href="djs.html" title="DJS">DJS</a></li>
+							<li><a itemprop="url" href="podcasts.html" title="Podcasts">Podcasts</a></li>					
 						</ul>
 					</nav><!-- / menu -->
 					<div id="player"></div><!-- / player -->
@@ -100,7 +100,7 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 						Choose a file to upload: <input name="uploadedfile" type="file" /><br />
 						<input type="submit" value="Envoyez votre mix" />
 					</form>
-					<p><a href="upload.html" title="Classic Uploader">Ou utiliser le formulaire Avance</a></p>
+					<p itemscope><a itemprop="url" href="upload.html" title="Classic Uploader">Ou utiliser le formulaire Avance</a></p>
 				<section id="dj-main">
 					<table>
 						<caption><h1 class="title">Vos derniers mix</h1></caption>
@@ -145,13 +145,13 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 					<h1 class="title">Vos statistiques</h1>
 					<ul>
 						<li>
-							<h3>Code Mixiter: <span>900 DL</span></h3>						
+							<a itemprop="url" href="#" title="Modifier votre profil">Modifier votre profil</a>
 						</li>
 						<li>
-							<h3>Drupal is the way: <span>530 DL</span></h3>						
-						</li>	
+							<a itemprop="url" href="#" title="Voir votre profil">Voir votre profil</a>
+						</li>
 						<li>
-							<h3>HTML Rocks: <span>325 DL</span></h3>						
+							<a itemprop="url" href="#" title="Ajouter un lien">Ajouter un lien</a>
 						</li>	
 					</ul>
 				</aside>
@@ -160,15 +160,15 @@ Apache License: v2.0. http://www.apache.org/licenses/LICENSE-2.0
 			<footer role="contentinfo">
 				<div id="footerinfos">
 					<p>2012 Copyrights</p>
-					<ul id="social">
+					<ul id="social" itemscope>
 						<li>
-							<a href="#" id="rss">Flux RSS</a>
+							<a itemprop="url" href="#" id="rss">Flux RSS</a>
 						</li>
 						<li>
-							<a href="#" id="twitter">Compte Twitter</a>
+							<a itemprop="url" href="#" id="twitter">Compte Twitter</a>
 						</li>
 						<li>
-							<a href="#" id="fb">Compte Facebook</a>
+							<a itemprop="url" href="#" id="fb">Compte Facebook</a>
 						</li>
 					</ul>						
 				</div>
