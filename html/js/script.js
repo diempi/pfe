@@ -17,7 +17,7 @@ var duree = monSon.duration;
 function joue(e)
 {
     monSon.play();    
-    if
+   
 }
 
 function pause(e)
