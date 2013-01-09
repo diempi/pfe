@@ -16,13 +16,14 @@ var volMonSon= monSon.volume;
 var duree = monSon.duration;
 function joue(e)
 {
-    monSon.play();    
-   
+    monSon.play();
+    $(".icon-play").removeClass("icon-play").addClass("icon-pause").attr("Value","Pause");
 }
 
 function pause(e)
 {
     monSon.pause();
+    $(".icon-pause").removeClass("icon-pause").addClass("icon-play").attr("Value","Play");
 }
 
 function stop(e)

@@ -2240,7 +2240,7 @@ table tbody tr:hover th {
   #main li h2{
     margin-bottom: -0.1em;
     padding-bottom: 0.2em;
-    font-size: 1.5em;
+    font-size: 1.3em;
     background-color: black;
     color: #fff;
   }
@@ -2437,7 +2437,7 @@ table tbody tr:hover th {
   .icon-thumbs-up{
     color: green;
     font-size: 2.5em;
-    line-height: 1.2;
+    line-height: 1.5;
   }
 
   .icon-thumbs-down{
@@ -2488,8 +2488,15 @@ table tbody tr:hover th {
     font-weight: bold;
     margin-bottom: 0;
   }
-  #pause, canvas{
+  canvas{
     display: none;
+  }
+
+  #highlight .btn-play {
+      margin-left: 382px;
+  }
+  #highlight h3{
+    margin-bottom: 0;
   }
 }
 @media only screen and (min-width: 1382px) {
@@ -2663,7 +2670,7 @@ table tbody tr:hover th {
   #main li h2{
     margin-bottom: -0.1em;
     padding-bottom: 0.2em;
-    font-size: 1.5em;
+    font-size: 1.3em;
     background-color: black;
     color: #fff;
   }
