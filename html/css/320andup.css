@@ -2436,10 +2436,14 @@ table tbody tr:hover th {
   /**/
   .icon-thumbs-up{
     color: green;
+    font-size: 2.5em;
+    line-height: 1.2;
   }
 
   .icon-thumbs-down{
     color: red;
+    font-size: 2.5em;
+    line-height: 1.2;    
   }
 
   .title{
@@ -2448,6 +2452,44 @@ table tbody tr:hover th {
 
   #main h2{
     padding-left: 0.4em;
+  }
+  .controls{
+    height: 54px;
+  }
+  .controls a{
+    text-transform: uppercase;
+    font-size: 1em ;
+    font-weight: bold;
+  }
+  .btn-play{
+    display: block;
+    width: 61px;
+    height:52px;
+    text-indent: -99999px;
+    background-image: url('./../img/play-btn.png');
+    background-repeat: no-repeat;
+  }
+  #main .btn-play{
+    float: left;
+  }
+  #podcasts img{
+    float: left;
+  }  
+  .btn-play:hover{
+    background-position: bottom;
+  }
+  .profil{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .music-style{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  #pause, canvas{
+    display: none;
   }
 }
 @media only screen and (min-width: 1382px) {
@@ -2829,6 +2871,41 @@ table tbody tr:hover th {
 
   #main h2{
     padding-left: 0.4em;
+  }
+  .controls{
+    height: 54px;
+  }
+  .controls a{
+    text-transform: uppercase;
+    font-size: 1em ;
+    font-weight: bold;
+  }
+  .btn-play{
+    display: block;
+    width: 61px;
+    height:52px;
+    text-indent: -99999px;
+    background-image: url('./../img/play-btn.png');
+    background-repeat: no-repeat;
+  }
+  #main .btn-play{
+    float: left;
+  }
+  #podcasts img{
+    float: left;
+  }  
+  .btn-play:hover{
+    background-position: bottom;
+  }
+  .profil{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .music-style{
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 0;
   }
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {

@@ -10,7 +10,7 @@ Debugger.log = function(message){ /*declaration de la methode*/
         }
     };
 var monSon = new Audio();
-monSon.src = "media/space.wav";
+monSon.src = "media/space.mp3";
 //monSon.play();
 var volMonSon= monSon.volume;
 var duree = monSon.duration;
